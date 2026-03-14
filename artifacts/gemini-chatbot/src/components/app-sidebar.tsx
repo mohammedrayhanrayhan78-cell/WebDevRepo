@@ -55,7 +55,7 @@ export function AppSidebar() {
             <Bot className="h-5 w-5 text-white" />
           </div>
           <span className="font-display font-bold text-lg bg-clip-text text-transparent bg-gradient-to-r from-white to-white/70">
-            Gemini AI
+            Jarvis
           </span>
         </div>
         

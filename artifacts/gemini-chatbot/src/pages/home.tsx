@@ -32,7 +32,7 @@ export default function Home() {
         
         <div className="space-y-4">
           <h1 className="text-5xl md:text-7xl font-display font-bold tracking-tight bg-clip-text text-transparent bg-gradient-to-br from-white via-white/90 to-white/40">
-            Gemini AI <span className="text-primary block sm:inline">Experience</span>
+            Jarvis <span className="text-primary block sm:inline">AI</span>
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground max-w-xl mx-auto font-medium">
             Engage in seamless, intelligent conversations powered by Google's most capable AI model.

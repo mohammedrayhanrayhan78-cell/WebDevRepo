@@ -26,7 +26,7 @@ export function Layout({ children }: LayoutProps) {
         <div className="flex flex-col flex-1 relative z-10 w-full overflow-hidden">
           <header className="flex h-14 items-center justify-between px-4 border-b border-border/40 bg-background/50 backdrop-blur-md lg:hidden">
             <SidebarTrigger data-testid="button-sidebar-toggle" />
-            <div className="font-display font-semibold text-sm">Gemini AI</div>
+            <div className="font-display font-semibold text-sm">Jarvis</div>
             <div className="w-8" /> {/* Spacer for centering */}
           </header>
           
