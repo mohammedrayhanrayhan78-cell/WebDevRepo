@@ -1,3 +1,24 @@
+# Gemini AI Chatbot
+
+## Overview
+
+A beautiful, futuristic AI chatbot powered by Gemini 2.5 Flash with a dark glassmorphism UI, real-time streaming responses, and conversation management.
+
+## Features
+
+- Dark futuristic UI with purple gradient accents
+- Sidebar with conversation list (create, select, delete)
+- Real-time SSE streaming of AI responses with typing animation
+- Markdown rendering for AI responses (code blocks, lists, bold, etc.)
+- Framer Motion animations on chat bubbles
+- Mobile-responsive layout
+- Powered by Replit AI Integrations for Gemini (no API key needed)
+
+## Artifacts
+
+- `artifacts/gemini-chatbot` — React + Vite frontend at `/`
+- `artifacts/api-server` — Express 5 backend at `/api`
+
 # Workspace
 
 ## Overview
