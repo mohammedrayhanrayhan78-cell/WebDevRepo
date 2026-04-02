@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mohammed Rayhan | Portfolio</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0f172a;
+  color: white;
+  text-align: center;
+}
+
+header {
+  padding: 50px;
+  background: linear-gradient(135deg, #1e3a8a, #9333ea);
+}
+
+h1 {
+  font-size: 40px;
+}
+
+p {
+  color: #cbd5f5;
+}
+
+.section {
+  padding: 40px;
+}
+
+.card {
+  background: #1e293b;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  display: inline-block;
+  width: 250px;
+}
+
+a {
+  color: #38bdf8;
+  text-decoration: none;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background: #38bdf8;
+  color: black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+  <h1>Mohammed Rayhan</h1>
+  <p>Aspiring Developer | Problem Solver</p>
+  <button onclick="scrollToSection()">View Projects</button>
+</header>
+
+<div class="section">
+  <h2>About Me</h2>
+  <p>I am a passionate developer learning web development and building projects.</p>
+</div>
+
+<div class="section" id="projects">
+  <h2>Projects</h2>
+
+  <div class="card">
+    <h3>Portfolio Website</h3>
+    <p>My personal portfolio built with HTML, CSS, JS.</p>
+  </div>
+
+  <div class="card">
+    <h3>Game Project</h3>
+    <p>Unity 3D platform game.</p>
+  </div>
+
+</div>
+
+<div class="section">
+  <h2>Contact</h2>
+  <p>Email: your@email.com</p>
+  <p>GitHub: your GitHub link</p>
+</div>
+
+<script>
+function scrollToSection() {
+  document.getElementById("projects").scrollIntoView({ behavior: "smooth" });
+}
+</script>
+
+</body>
+</html>
